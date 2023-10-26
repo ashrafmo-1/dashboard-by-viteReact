@@ -1,0 +1,15 @@
+.top-navgations{
+    width: 1600px;
+    height: 52px;
+    border-bottom: 2px solid #F0F0F0;
+    background: #FDFDFD;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+.SidebarIcon {
+    margin-left: 24px;
+}
+.Chevron{
+    gap: 10px;
+    margin-left: 16px;
+}
