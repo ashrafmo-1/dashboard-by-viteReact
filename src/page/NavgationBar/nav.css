@@ -1,0 +1,99 @@
+.navgationBar{
+    height: 75px;
+    font-family: sans-serif;
+    padding: 25px;
+    border-bottom: 2px solid rgba(173, 184, 204, 1);
+    padding-bottom: 50px;
+}
+
+.navgationMenu {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+    cursor: pointer;
+}
+
+.brandName {
+    color: #4D5E80;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    width: fit-content;
+}
+
+.navbarLinks {
+    margin-left: 85px;
+    margin-right: 69px;
+}
+
+.navbarLinks .navbarLink{
+    color: var(--Grey-Blue-70, #7D8FB3);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Bold 13 */
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 192.308% */
+}
+
+.inputSearch.inputSearch{
+    margin-right: 82px;
+    position: relative;
+}
+
+.inputSearch input {
+    display: flex;
+    width: 430px;
+    height: 50px;
+    padding: 10px 40px 10px 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+.inputSearch input::placeholder {
+    color: var(--Grey-Blue-80, #ADB8CC);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.inputSearch .iconSearch, .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.inputSearch .iconSearch {
+    left: 20px;
+}
+.inputSearch .icon{
+    right: 20px;
+}
+
+.userName{
+    color: #6B7A99;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+.controls .iconNotvgation,
+.controls .iconClose{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}

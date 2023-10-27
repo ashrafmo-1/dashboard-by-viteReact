@@ -12,7 +12,7 @@ import './TopNav.css'
 const TopNav = () => {
     return (
         <div className='top-navgations d-flex justify-content-between container-fluid'>
-            <div className='d-flex  '>
+            <div className='d-flex'>
                 <img className='' src={controls} alt="" />
                 <img className='SidebarIcon' src={SidebarIcon} alt="" />
                 <div className='Chevron d-flex'>

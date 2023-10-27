@@ -6,10 +6,12 @@ import TopNav from './page/TopNav/TopNav'
 function App() {
   return (
     <>
-    <TopNav />
-    <Nav />
-    <div className='container'>
-    </div>
+      <TopNav />
+      <div className='container-fluid' style={{paddingTop: '20px', background: '#eee'}}>
+        <Nav />
+        <div className='container'>
+        </div>
+      </div>
     </>
   )
 }
