@@ -37,7 +37,7 @@ const Nav = () => {
         </div>
         <div className='controls d-flex gap-2 align-items-center'>
           <img className='iconNotvgation' src={IconNotfgatuion} alt="" />
-          <img className='iconClose' src={Iconclose} alt="" /> 
+          <img className='iconClose' src={Iconclose} alt="" />
         </div>
       </div>
     </div>

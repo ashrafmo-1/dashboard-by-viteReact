@@ -20,9 +20,10 @@ const TopNav = () => {
                     <img className='' src={ChevronRight} alt="" />
                 </div>
             </div>
-            <div>
+            <div className='d-flex align-items-center gap-2'>
                 <img className='' src={Shield} alt="" />
-                <img className='' src={Clockwise} alt="" />
+                <input type="text" placeholder='constructor.spline.one' />
+                <img className='Clockwise' src={Clockwise} alt="" />
             </div>
             <div>
                 <img className='' src={Share} alt="" />

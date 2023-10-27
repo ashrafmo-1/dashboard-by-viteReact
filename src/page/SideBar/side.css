@@ -1,0 +1,38 @@
+.sideAllContent{
+    flex-direction: column;
+    height: 1075px;
+    border-right: 2px solid rgba(237, 239, 242, 1);
+}
+.sideAllContent .side {
+    flex-direction: column;
+    padding: 25px;
+}
+.side .iconPages {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+.side .avatar {
+    border-radius: 50%;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.addNewUSer{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
