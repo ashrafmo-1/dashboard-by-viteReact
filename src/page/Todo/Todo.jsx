@@ -1,20 +1,12 @@
-import  { useState } from 'react';
+import HeaderBox from "../../components/headerBox/HeaderBox"
 
-function BoxComponent() {
-  const [isActive, setIsActive] = useState(false);
 
-  const toggleActive = () => {
-    setIsActive(!isActive); // Toggle the isActive state
-  };
-
-  // Conditionally assign the "active" class based on the isActive state
-  const boxClass = isActive ? 'box active' : 'box';
-
+const Todo = () => {
   return (
-    <div className={boxClass} onClick={toggleActive}>
-      Click me to toggle the {"active"} class
+    <div className="toDo">
+      <HeaderBox />
     </div>
-  );
+  )
 }
 
-export default BoxComponent;
+export default Todo

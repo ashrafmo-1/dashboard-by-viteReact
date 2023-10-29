@@ -1,9 +1,8 @@
 .BarSections {
     gap: 92px;
-    border-radius: 15px;
-    margin: 27px 30px 27px 60px;
-    padding: 10px;
-    border: 2px solid rgba(237, 239, 242, 1);
+    margin-bottom: 48px;
+    padding-bottom: 26px;
+    border-bottom: 2px solid rgba(237, 239, 242, 1);
 }
 
 .BarSections .links {
