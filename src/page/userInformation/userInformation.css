@@ -13,6 +13,7 @@
     border-radius: 100px;
     background: #FFF;
     box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+    cursor: pointer;
 }
 .userHint {
     flex-direction: column;
@@ -67,11 +68,13 @@
 .boxes .box.active {
     border: 2px solid #7795FD;
 }
+.active {
+    border: 2px solid #7795FD;
+}
 .boxes .box img{
     width: 30px;
     height: 30px;
 }
-
 .AllsocialLinks {
     margin-top: 120px;
     width: 240px;

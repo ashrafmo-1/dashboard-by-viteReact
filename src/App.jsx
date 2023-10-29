@@ -3,6 +3,7 @@ import Nav from './page/NavgationBar/Nav'
 import TopNav from './page/TopNav/TopNav'
 import Side from './page/SideBar/Side'
 import UserInformation from './page/userInformation/UserInformation'
+import BarSections from './page/barSections/BarSections'
 
 
 function App() {
@@ -15,8 +16,13 @@ function App() {
           <div className='sideBar' style={{width: '6%'}}>
             <Side />
           </div>
-          <div className='sideBar' style={{width: '6%'}}>
+          <div className='sideBar' style={{width: '22%'}}>
             <UserInformation />
+          </div>
+          <div className='boards' style={{width: '72%'}}>
+            <div className='sectionControlsBars' style={{width: ''}}>
+              <div style={{widows: '90%'}}><BarSections /></div>
+            </div>
           </div>
         </div>
       </div>

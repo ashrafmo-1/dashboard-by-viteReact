@@ -29,22 +29,19 @@
 }
 
 .navbarLinks {
-    margin-left: 85px;
-    margin-right: 69px;
+    margin-left: 64px;
+    margin-right: 60px;
 }
 
 .navbarLinks .navbarLink{
-    color: var(--Grey-Blue-70, #7D8FB3);
-    font-feature-settings: 'clig' off, 'liga' off;
-    /* Bold 13 */
-    font-size: 13px;
-    font-style: normal;
+    color: #7D8FB3;
+    font-size: 12px;
     font-weight: 700;
-    line-height: 25px; /* 192.308% */
+    cursor: pointer;
 }
 
 .inputSearch.inputSearch{
-    margin-right: 82px;
+    margin-right: 62px;
     position: relative;
 }
 
@@ -66,7 +63,8 @@
     font-weight: 700;
 }
 
-.inputSearch .iconSearch, .icon {
+.inputSearch .iconSearch,
+ .icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -80,10 +78,8 @@
 
 .userName{
     color: #6B7A99;
-    font-size: 15px;
-    font-style: normal;
+    font-size: 13px;
     font-weight: 700;
-    line-height: 25px;
 }
 .controls .iconNotvgation,
 .controls .iconClose{

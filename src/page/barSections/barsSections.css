@@ -1,0 +1,27 @@
+.BarSections {
+    gap: 92px;
+    border-radius: 15px;
+    margin: 27px 30px 27px 60px;
+    padding: 10px;
+    border: 2px solid rgba(237, 239, 242, 1);
+}
+
+.BarSections .links {
+    gap: 25px;
+}
+.BarSections .links li {
+    padding: 4px 0;
+    gap: 5px;
+}
+
+.BarSections input{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding: 15px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}

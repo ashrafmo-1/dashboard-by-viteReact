@@ -10,12 +10,12 @@ import './nav.css'
 const Nav = () => {
   return (
     <div className='navgationBar d-flex align-items-center'>
-      <div className='d-flex align-items-center gap-5'>
+      <div className='d-flex align-items-center' style={{gap: '35px'}}>
         <img className='navgationMenu bg-light' src={navMenu} alt= "navMenu" />
         <h1 className="brandName"> Constructor </h1>
       </div>
 
-      <div className='navbarLinks d-flex gap-4'>
+      <div className='navbarLinks d-flex align-items-center' style={{gap: '21px'}}>
         <span className='navbarLink'> Dashboard </span>
         <span className='navbarLink'> About Us </span>
         <span className='navbarLink'> News </span>
@@ -30,7 +30,7 @@ const Nav = () => {
         <img className='icon' src={ChevronRight} alt="" />
       </div>
 
-      <div className='dataUser d-flex gap-4 align-items-center'>
+      <div className='dataUser d-flex align-items-center' style={{gap: '10px'}}>
         <div className='userInfo d-flex gap-1 align-items-center'>
           <img src={account_circle} alt="" />
           <span className='userName'> Clayton Santos </span>
