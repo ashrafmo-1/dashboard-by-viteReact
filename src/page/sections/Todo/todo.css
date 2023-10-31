@@ -1,0 +1,38 @@
+.toDo {
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+}
+
+.toDo .BoxContent{
+    padding: 8px;
+    margin: 15px 0 5px 0;
+}
+.toDo .BoxContent .headcontent p {
+    color: rgba(173, 184, 204, 1);
+    font-size: 10px;
+    font-weight: 700;
+}
+.toDo .BoxContent .headcontent img {
+    width: 30px;
+    height: 30px;
+    background-color: #AF59A0;
+    border-radius: 50%;
+}
+
+.toDo .BoxContent .title {
+    color: rgba(107, 122, 153, 1);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.contrlosBoxes{
+    margin-top: 15px;
+}
+.contrlosBoxes p {
+    color: rgba(107, 122, 153, 1);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+}

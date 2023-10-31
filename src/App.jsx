@@ -4,7 +4,10 @@ import TopNav from './page/TopNav/TopNav'
 import Side from './page/SideBar/Side'
 import UserInformation from './page/userInformation/UserInformation'
 import BarSections from './page/barSections/BarSections'
-import Todo from './page/Todo/Todo'
+import Todo from './page/sections/Todo/Todo'
+import Work from './page/sections/InWork/Work'
+import Review from './page/sections/Review/Review'
+import Done from './page/sections/Done/Done'
 
 
 function App() {
@@ -20,9 +23,9 @@ function App() {
             <div className='sectionControlsBars' style={{width: '100%'}}> <BarSections /> </div>
             <div className='allBoxesContent d-flex gap-4'>
               <div className='ToDo' style={{width: '23%'}}> <Todo /> </div>
-              <div className='ToDo' style={{width: '23%'}}> <Todo /> </div>
-              <div className='ToDo' style={{width: '23%'}}> <Todo /> </div>
-              <div className='ToDo' style={{width: '23%'}}> <Todo /> </div>
+              <div className='ToDo' style={{width: '23%'}}> <Work /> </div>
+              <div className='ToDo' style={{width: '23%'}}> <Review /> </div>
+              <div className='ToDo' style={{width: '23%'}}> <Done /> </div>
             </div>
           </div>
         </div>

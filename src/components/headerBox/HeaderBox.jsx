@@ -3,11 +3,11 @@ import './headerBox.css'
 
 const HeaderBox = (props) => {
     return (
-        <>
+        <div>
             <div className="boxHeader d-flex align-items-center w-100 justify-content-between">
                 <div className="boxContent d-flex gap-2 align-items-center">
-                <h4 className="boxtitle">{props.title}</h4>
-                <h6 className="boxDoneNumber">5</h6>
+                <h4 className="boxtitle">{ props.title }</h4>
+                <h6 className="boxDoneNumber"> { props.number } </h6>
                 </div>
             <div className='controls'>
                 <img src={more_horiz} alt="" />
@@ -16,7 +16,7 @@ const HeaderBox = (props) => {
                 </svg>
             </div>
             </div>
-        </>
+        </div>
     )
 }
 
