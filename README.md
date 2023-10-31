@@ -2,6 +2,7 @@
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 this templete on fugme ui/ux:
+
      https://www.figma.com/file/D84SxOGtwrb03uE7znaE8a/Dashboard-UI-Kit-(Community)?type=design&node-id=3808%3A13552&mode=dev
 
      use bootstrap classes only and pure css effects
