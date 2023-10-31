@@ -19,7 +19,7 @@ import ToDoSlice from "../../../components/TODOS/ToDoSlice"
 const Todo = () => {
   return (
     <div>
-    <HeaderBox title={'To Do'} number={'5'} />
+    <HeaderBox title={'To Do'} number={'6'} />
     <div className="toDo">
         <div className="contentBoxes">
           <div className="boxImage">

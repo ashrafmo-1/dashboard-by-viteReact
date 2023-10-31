@@ -1,14 +1,10 @@
 import HeaderBox from "../../../components/headerBox/HeaderBox"
-
 // bgi
-import bgBox from '../../../assets/Image.png'
-
-
+import bgBox from '../../../assets/Image2.png'
 // avatars
 import avatar1 from '../../../assets/avatar-1.png'
 import avatar2 from '../../../assets/avatar-2.png'
 import avatar3 from '../../../assets/avatar-3.png'
-
 // style
 import './work.css'
 import ToDoSlice from "../../../components/TODOS/ToDoSlice"
@@ -16,7 +12,7 @@ import ToDoSlice from "../../../components/TODOS/ToDoSlice"
 const Work = () => {
   return (
     <div>
-    <HeaderBox title={'To Do'} number={'5'} />
+    <HeaderBox title={'In Work'} number={'5'} />
     <div className="toDo">
       <div className="BoxContent">
         <ToDoSlice title={'Types Of Paper In Catalog'} descreptionTop={'Space Tasks 2'} img={avatar2} img2={avatar3} />
@@ -69,13 +65,13 @@ const Work = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                   <path d="M7 12C7.55 12 8 11.55 8 11C8 10.45 7.55 10 7 10C6.45 10 6 10.45 6 11C6 11.55 6.45 12 7 12ZM8 15C8 15.55 7.55 16 7 16C6.45 16 6 15.55 6 15C6 14.45 6.45 14 7 14C7.55 14 8 14.45 8 15ZM8 19C8 19.55 7.55 20 7 20C6.45 20 6 19.55 6 19C6 18.45 6.45 18 7 18C7.55 18 8 18.45 8 19ZM24 15C24 15.55 23.55 16 23 16H11C10.45 16 10 15.55 10 15C10 14.45 10.45 14 11 14H23C23.55 14 24 14.45 24 15ZM23 20C23.55 20 24 19.55 24 19C24 18.45 23.55 18 23 18H11C10.45 18 10 18.45 10 19C10 19.55 10.45 20 11 20H23ZM11 12C10.45 12 10 11.55 10 11C10 10.45 10.45 10 11 10H23C23.55 10 24 10.45 24 11C24 11.55 23.55 12 23 12H11Z" fill="red"/>
                   </svg>
-                  <p className="text-danger">4</p>
+                  <p className="text-danger">29</p>
                 </div>
                 <div className="boxConltrol d-flex gap-1 align-items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                   <path d="M20.2539 19.5H9.67393C7.58393 19.5 5.72393 17.97 5.52393 15.89C5.29393 13.51 7.16393 11.5 9.50393 11.5H21.8639C23.1739 11.5 24.3639 12.44 24.4939 13.74C24.6439 15.24 23.4739 16.5 22.0039 16.5H11.5039C10.9539 16.5 10.5039 16.05 10.5039 15.5C10.5039 14.95 10.9539 14.5 11.5039 14.5H20.2539C20.6639 14.5 21.0039 14.16 21.0039 13.75C21.0039 13.34 20.6639 13 20.2539 13H11.6439C10.3339 13 9.14393 13.94 9.01393 15.24C8.86393 16.74 10.0339 18 11.5039 18H21.8339C23.9239 18 25.7839 16.47 25.9839 14.39C26.2139 12 24.3439 10 22.0039 10H9.73393C6.86393 10 4.29393 12.1 4.02393 14.96C3.72393 18.25 6.28393 21 9.50393 21H20.2539C20.6639 21 21.0039 20.66 21.0039 20.25C21.0039 19.84 20.6639 19.5 20.2539 19.5Z" fill="red"/>
                   </svg>
-                  <p className="text-danger">2</p>
+                  <p className="text-danger">12</p>
                 </div>
                 <div className="boxConltrol d-flex gap-1 align-items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -86,6 +82,7 @@ const Work = () => {
               </div>
       </div>
     </div>
+    <p className="addNew">+ NEW TASK</p>
     </div>
   )
 }
